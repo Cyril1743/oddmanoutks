@@ -63,7 +63,7 @@ export default function Home() {
                         Painting
                         <UnorderedList>
                             <ListItem>
-                                
+                                Interior/Exterior
                             </ListItem>
                         </UnorderedList>
                     </ListItem>
