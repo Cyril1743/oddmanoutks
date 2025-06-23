@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Home from "./pages/Home";
 
 export default function Pages() {
     const [page, setPage] = useState("Home")
@@ -8,4 +9,10 @@ export default function Pages() {
             return <Home />
         }
     }
+
+    return (
+        <div>
+            {renderPage()}
+        </div>
+    )
 }
