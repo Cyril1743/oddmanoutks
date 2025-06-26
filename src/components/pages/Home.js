@@ -16,8 +16,8 @@ export default function Home() {
                 <Heading m={"auto"}>
                     Services
                 </Heading>
-                <UnorderedList textDecoration={"none"}>
-                    <ListItem textDecor={"none"}>
+                <UnorderedList>
+                    <ListItem>
                         Carpentry:
                         <UnorderedList>
                             <ListItem>
@@ -66,6 +66,23 @@ export default function Home() {
                                 Interior/Exterior
                             </ListItem>
                         </UnorderedList>
+                    </ListItem>
+                    <ListItem>
+                        Drywall repair
+                        <UnorderedList>
+                            <ListItem>
+                                Patching holes
+                            </ListItem>
+                            <ListItem>
+                                Fixing water damage to walls
+                            </ListItem>
+                            <ListItem>
+                                Taping and Texturing
+                            </ListItem>
+                        </UnorderedList>
+                    </ListItem>
+                    <ListItem>
+
                     </ListItem>
                 </UnorderedList>
             </Grid>
