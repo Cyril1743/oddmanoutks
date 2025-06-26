@@ -5,13 +5,14 @@ import ServiceCard from "../ServiceCard";
 import { GiHandSaw } from "react-icons/gi";
 import { FaFaucetDrip, FaTrowelBricks } from "react-icons/fa6";
 import { FaBolt, FaPaintRoller } from "react-icons/fa";
+import logo from "../../images/oddman-logo.gif"
 
 export default function Home() {
     return (
         <div>
             <Grid>
+                <Image src={logo} m={"auto"}/>
                 <Heading m={"auto"} mb={5}>Odd Man Out</Heading>
-
                 <Image m={"auto"} src={profilePicture} boxSize={"500px"} borderRadius={'full'} />
                 <Text m={"auto"} fontStyle={"italic"}>Serving the greater Topeka area for 15 years</Text>
                 <Divider/>
