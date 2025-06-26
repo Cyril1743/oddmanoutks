@@ -1,90 +1,36 @@
 import React from "react";
-import { Center, Flex, Grid, Heading, Image, List, ListItem, Spacer, Text, UnorderedList } from "@chakra-ui/react";
+import {Divider, Grid, Heading, Image, Spacer, Stack, Text} from "@chakra-ui/react";
 import profilePicture from "../../images/profile picture.jpg"
+import ServiceCard from "../ServiceCard";
+import { GiHandSaw } from "react-icons/gi";
+import { FaFaucetDrip, FaTrowelBricks } from "react-icons/fa6";
+import { FaBolt, FaPaintRoller } from "react-icons/fa";
 
 export default function Home() {
     return (
         <div>
             <Grid>
-                <Heading m={"auto"} >Odd Man Out</Heading>
-                <Text m={"auto"}>No job too small!</Text>
+                <Heading m={"auto"} mb={5}>Odd Man Out</Heading>
+
                 <Image m={"auto"} src={profilePicture} boxSize={"500px"} borderRadius={'full'} />
-                <Text m={"auto"}>Serving the greater Topeka area for 15 years</Text>
-                <Spacer s/>
+                <Text m={"auto"} fontStyle={"italic"}>Serving the greater Topeka area for 15 years</Text>
+                <Divider/>
             </Grid>
-            <Grid>
-                <Heading m={"auto"}>
+            <Stack spacing={3} alignItems={"center"}>
+                <Heading m={"auto"} mt={4}>
                     Services
                 </Heading>
-                <UnorderedList>
-                    <ListItem>
-                        Carpentry:
-                        <UnorderedList>
-                            <ListItem>
-                                Deck repairs
-                            </ListItem>
-                            <ListItem>
-                                Custom trim installations
-                            </ListItem>
-                            <ListItem>
-                                Bespoke woodworking projects
-                            </ListItem>
-                        </UnorderedList>
-                    </ListItem>
-                    <ListItem>
-                        Plumbing
-                        <UnorderedList>
-                            <ListItem>
-                                Fixing leaky fauces
-                            </ListItem>
-                            <ListItem>
-                                Unclogging drains
-                            </ListItem>
-                            <ListItem>
-                                Installations
-                            </ListItem>
-                        </UnorderedList>
-                    </ListItem>
-                    <ListItem>
-                        Electrical
-                        <UnorderedList>
-                            <ListItem>
-                                Outlet replacements
-                            </ListItem>
-                            <ListItem>
-                                Lighting Upgrades
-                            </ListItem>
-                            <ListItem>
-                                Ceiling fan installations
-                            </ListItem>
-                        </UnorderedList>
-                    </ListItem>
-                    <ListItem>
-                        Painting
-                        <UnorderedList>
-                            <ListItem>
-                                Interior/Exterior
-                            </ListItem>
-                        </UnorderedList>
-                    </ListItem>
-                    <ListItem>
-                        Drywall repair
-                        <UnorderedList>
-                            <ListItem>
-                                Patching holes
-                            </ListItem>
-                            <ListItem>
-                                Fixing water damage to walls
-                            </ListItem>
-                            <ListItem>
-                                Taping and Texturing
-                            </ListItem>
-                        </UnorderedList>
-                    </ListItem>
-                    <ListItem>
-
-                    </ListItem>
-                </UnorderedList>
+                <ServiceCard icon={GiHandSaw} title={"Carpentry"} tasks={["Deck Repairs", "Custom trim installations", "Bespoke woodworking projects"]}/>
+                <ServiceCard icon={FaFaucetDrip} title={"Plumbing"} tasks={["Fixing Leaky Faucets", "Unclogging drains", "Installations"]} />
+                <ServiceCard icon={FaBolt} title={"Eletrical"} tasks={["Outlet replacements", "Lighting Upgrades", "Ceiling Fan Installations"]}/>
+                <ServiceCard icon={FaPaintRoller} title={"Painting"} tasks={["Interior", "Exterior"]}/>
+                <ServiceCard icon={FaTrowelBricks} title={"Drywall"} tasks={["Patching holes", "Fixing Water Damage", "Taping and Texturing"]}/>
+                <Divider/>
+            </Stack>
+            <Grid mt={4}>
+            <Heading m={"auto"}>
+                Contact
+            </Heading>
             </Grid>
         </div>
     )
