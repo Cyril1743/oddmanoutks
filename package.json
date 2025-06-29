@@ -2,7 +2,7 @@
   "name": "oddmanoutks",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Cyril1743.github.io/oddmanoutks/",
+  "homepage": "https://www.oddmanoutks.com",
   "dependencies": {
     "@chakra-ui/react": "^1.8.8",
     "gh-pages": "^6.3.0",
