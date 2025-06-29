@@ -25,7 +25,7 @@ export default function Home() {
                 <ServiceCard icon={GiHandSaw} title={"Carpentry"} tasks={["Deck repairs", "Custom trim installations", "Bespoke woodworking projects"]} />
                 <ServiceCard icon={FaFaucetDrip} title={"Plumbing"} tasks={["Fixing leaky faucets", "Unclogging drains", "Installations"]} />
                 <ServiceCard icon={FaBolt} title={"Eletrical"} tasks={["Outlet replacements", "Lighting upgrades", "Ceiling fan installations"]} />
-                <ServiceCard icon={GiRake} title={"Exterior"} tasks={["Fence repairs/installations", "Yard work", "Small concrete jobs"]} />
+                <ServiceCard icon={GiRake} title={"Exterior"} tasks={["Fence repairs/installations", "Yard work", "Small concrete jobs", "Block and brick repair"]} />
                 <ServiceCard icon={FaTrowelBricks} title={"Drywall"} tasks={["Patching holes", "Small sheetrock repairs"]} />
                 <ServiceCard icon={FaFireFlameCurved} title={"Welding"} tasks={["Repair", "Modification", "Light custom manufacturing", "Most kinds of Steel/Aluminum"]} />
                 <Divider />
