@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/oddmanoutks/static/js/main.c6f0fb1c.js",
-    "static/media/profile picture.jpg": "/oddmanoutks/static/media/profile picture.667797060495b61f1c7e.jpg",
-    "index.html": "/oddmanoutks/index.html",
-    "main.c6f0fb1c.js.map": "/oddmanoutks/static/js/main.c6f0fb1c.js.map"
+    "main.js": "/static/js/main.91ad6660.js",
+    "static/media/profile picture.jpg": "/static/media/profile picture.667797060495b61f1c7e.jpg",
+    "index.html": "/index.html",
+    "main.91ad6660.js.map": "/static/js/main.91ad6660.js.map"
   },
   "entrypoints": [
-    "static/js/main.c6f0fb1c.js"
+    "static/js/main.91ad6660.js"
   ]
 }
